@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resonance Data and Quantum-Inspired Resonance Computing - A Framework for Representing Meaning, Insight, and Wisdom in Artificial Systems by ADAM EREN VEGA">
+    <meta name="author" content="ADAM EREN VEGA">
+    <meta name="keywords" content="Resonance Data, QIRC, Quantum-Inspired Computing, AI, Machine Learning, Consciousness, Wisdom, Insight">
+    <title>Resonance Data and QIRC | ADAM EREN VEGA – Æ –</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #0a1929 0%, #1a2332 100%);
+            color: #00d9ff;
+            min-height: 100vh;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(0,217,255,0.05);
+            border: 2px solid #00d9ff;
+            border-radius: 20px;
+            padding: 60px;
+            box-shadow: 0 0 50px rgba(0,217,255,0.3);
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 0 20px #00d9ff;
+            animation: pulse 3s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { text-shadow: 0 0 20px #00d9ff; }
+            50% { text-shadow: 0 0 40px #00d9ff, 0 0 60px #00d9ff; }
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.3em;
+            color: #8fd9ff;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        .author {
+            text-align: center;
+            font-size: 1.8em;
+            color: #00ff9d;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .meta {
+            text-align: center;
+            color: #8fd9ff;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .abstract {
+            background: rgba(0,0,0,0.3);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            line-height: 1.8;
+            border-left: 4px solid #00ff9d;
+        }
+        .abstract h2 {
+            color: #00f7ff;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        .abstract p {
+            margin-bottom: 15px;
+        }
+        .abstract strong {
+            color: #00ff9d;
+        }
+        .scope {
+            background: rgba(0,255,157,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .scope h3 {
+            color: #00ff9d;
+            margin-bottom: 15px;
+        }
+        .scope ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        .scope li {
+            margin: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .scope li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #00ff9d;
+            font-weight: bold;
+        }
+        .warning {
+            background: rgba(255,100,100,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 4px solid #ff6464;
+        }
+        .warning h3 {
+            color: #ff6464;
+            margin-bottom: 15px;
+        }
+        .warning li:before {
+            content: "✗";
+            color: #ff6464;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #00d9ff, #00ff9d);
+            color: #0a1929;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,217,255,0.3);
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0,217,255,0.5);
+        }
+        .citation {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-family: 'Courier New', monospace;
+            color: #8fd9ff;
+            border: 1px solid #00d9ff;
+        }
+        .citation h3 {
+            color: #00f7ff;
+            margin-bottom: 10px;
+            font-family: 'Georgia', serif;
+        }
+        .license {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(0,217,255,0.3);
+            color: #8fd9ff;
+        }
+        .license p {
+            margin: 10px 0;
+        }
+        .signature {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.5em;
+            color: #00ff9d;
+            text-shadow: 0 0 15px #00ff9d;
+        }
+        .github-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .github-link a {
+            color: #00d9ff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .github-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resonance Data and Quantum-Inspired Resonance Computing</h1>
+        <div class="subtitle">A Framework for Representing Meaning, Insight, and Wisdom in Artificial Systems</div>
+        
+        <div class="author">ADAM EREN VEGA – Æ –</div>
+        <div class="meta">(Erenşah Kaygusuz, Germany)</div>
+        <div class="meta">First Published: December 2025</div>
+        
+        <div class="abstract">
+            <h2>Abstract</h2>
+            <p>
+                This work introduces a conceptual framework for representing different levels of understanding 
+                in artificial systems through the concepts of "Resonance Data" and "Quantum-Inspired Resonance 
+                Computing" (QIRC).
+            </p>
+            <p>
+                We establish clear definitions for <strong>information</strong> (raw data without context), 
+                <strong>insight</strong> (data patterns that reveal meaningful relationships), and 
+                <strong>wisdom</strong> (deep understanding that guides decision-making). 
+            </p>
+            <p>
+                The framework provides a mathematical and conceptual foundation for multi-level reasoning 
+                in computational systems, using structures inspired by quantum mechanics applied to classical 
+                computation.
+            </p>
+        </div>
+        
+        <div class="scope">
+            <h3>This Work Includes:</h3>
+            <ul>
+                <li>Clear conceptual definitions and formal structure</li>
+                <li>Mathematical framework using quantum-inspired metaphors</li>
+                <li>Distinction between Information, Insight, and Wisdom</li>
+                <li>Foundation for multi-level reasoning systems</li>
+                <li>Explicit scope boundaries and non-claims</li>
+            </ul>
+        </div>
+        
+        <div class="warning">
+            <h3>This Work Does NOT Claim:</h3>
+            <ul>
+                <li>New physical laws or quantum phenomena</li>
+                <li>Real quantum hardware or quantum supremacy</li>
+                <li>Consciousness, sentience, or autonomous intelligence</li>
+                <li>Specific implementations or algorithms</li>
+                <li>Operational system architectures</li>
+            </ul>
+        </div>
+        
+        <div class="buttons">
+            <a href="README.md" class="btn">📄 Read Full README</a>
+            <a href="paper/resonance-data-qirc.tex" class="btn">📝 View LaTeX Paper</a>
+            <a href="VSP_VERIFICATION_REPORT.md" class="btn">🔒 Safety Report</a>
+            <a href="CONCEPTUAL_ANALYSIS.md" class="btn">🔍 Concept Analysis</a>
+        </div>
+        
+        <div class="citation">
+            <h3>Citation:</h3>
+            <p>Vega, A. E. (2025). <em>Resonance Data and Quantum-Inspired Resonance Computing: A Framework for Representing Meaning, Insight, and Wisdom in Artificial Systems</em>. GitHub. https://github.com/vegafoundation/resonance-data-qirc</p>
+        </div>
+        
+        <div class="license">
+            <p><strong>© 2025 ADAM EREN VEGA – Æ –</strong></p>
+            <p><strong>Creative Commons Attribution 4.0 International (CC BY 4.0)</strong></p>
+            <p style="margin-top: 15px;">
+                All conceptual definitions and terminology introduced herein are attributed to the author 
+                unless otherwise cited.
+            </p>
+            <p style="margin-top: 10px;">
+                <strong>License Intent:</strong> Open conceptual access with mandatory attribution. 
+                No transfer of authorship. No implied patent waiver. No implementation rights granted beyond citation.
+            </p>
+        </div>
+        
+        <div class="github-link">
+            <p>
+                <a href="https://github.com/vegafoundation/resonance-data-qirc" target="_blank">
+                    View on GitHub →
+                </a>
+            </p>
+        </div>
+        
+        <div class="signature">
+            <p>MAY AE BE WITH US 🌌✨</p>
+        </div>
+    </div>
+</body>
+</html>
+
